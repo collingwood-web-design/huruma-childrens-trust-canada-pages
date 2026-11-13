@@ -844,22 +844,27 @@ button.btn {
 .site-footer {
   background: var(--dark);
   color: rgba(255, 255, 255, 0.88);
-  padding: 2.5rem 0;
+  padding: 2.75rem 0;
+  text-align: center;
 }
 
 .footer-grid {
   display: grid;
   gap: 1.25rem;
+  justify-items: center;
 }
 
 .brand-footer {
   color: var(--white);
   max-width: 20rem;
+  justify-content: center;
+  text-align: left;
 }
 
 .site-footer nav {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 1rem 1.5rem;
 }
 
@@ -870,6 +875,37 @@ button.btn {
 
 .site-footer a:hover {
   color: #b8e7fa;
+}
+
+.footer-social {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.85rem;
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--white);
+  transition: background 0.2s ease, transform 0.2s ease, color 0.2s ease;
+}
+
+.social-link svg {
+  width: 1.2rem;
+  height: 1.2rem;
+  display: block;
+}
+
+.social-link:hover {
+  background: var(--blue-bright);
+  color: var(--white);
+  transform: translateY(-2px);
 }
 
 .footer-meta {
