@@ -327,6 +327,18 @@ button.btn {
   color: var(--white);
 }
 
+.btn-outline {
+  background: transparent;
+  color: var(--dark);
+  border-color: var(--blue-deep);
+}
+
+.btn-outline:hover {
+  background: rgba(48, 152, 208, 0.12);
+  color: var(--dark);
+  border-color: var(--blue);
+}
+
 .text-link {
   display: inline-flex;
   align-items: center;
@@ -660,21 +672,43 @@ button.btn {
 
 .report-list {
   display: grid;
-  gap: 1.5rem;
+  gap: 2.25rem;
 }
 
 .report {
   display: grid;
-  grid-template-columns: 10rem 1fr;
+  grid-template-columns: 12rem 1fr;
   gap: 1.35rem;
   align-items: center;
-  padding-bottom: 1.5rem;
-  border-bottom: 1px solid var(--line);
-}
-
-.report:last-child {
   border-bottom: 0;
   padding-bottom: 0;
+}
+
+.report-featured {
+  grid-template-columns: minmax(14rem, 22rem) 1fr;
+  gap: 1.75rem;
+  padding-bottom: 2.25rem;
+  border-bottom: 1px solid rgba(48, 152, 208, 0.14);
+}
+
+.report-featured img {
+  aspect-ratio: 4 / 3;
+}
+
+.report-list-compact {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.75rem;
+}
+
+.report-list-compact .report {
+  grid-template-columns: 1fr;
+  align-items: start;
+  gap: 1rem;
+}
+
+.report-list-compact .report img {
+  aspect-ratio: 16 / 11;
 }
 
 .report img {
@@ -684,9 +718,26 @@ button.btn {
   border-radius: var(--radius-photo);
 }
 
+.report-label {
+  margin: 0 0 0.35rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--blue);
+}
+
+.report h3 {
+  margin-bottom: 0.55rem;
+}
+
 .report p {
   color: var(--muted);
   margin-bottom: 0.55rem;
+}
+
+.report .report-label + h3 {
+  margin-top: 0;
 }
 
 /* Alumni */
@@ -1430,8 +1481,12 @@ button.btn {
     width: 100%;
   }
 
-  .report {
-    grid-template-columns: 7rem 1fr;
+  .report-featured {
+    grid-template-columns: 1fr;
+  }
+
+  .report-list-compact {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -1485,12 +1540,13 @@ button.btn {
     padding-top: 4.5rem;
   }
 
-  .report {
-    grid-template-columns: 1fr;
+  .report-featured img,
+  .report-list-compact .report img {
+    max-width: none;
   }
 
-  .report img {
-    max-width: 12rem;
+  .section-head-link {
+    white-space: normal;
   }
 }
 
