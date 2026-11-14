@@ -609,7 +609,6 @@ button.btn {
 .reports {
   padding: 4.5rem 0;
   background: var(--sky);
-  border-block: 4px solid var(--dark);
 }
 
 .report-list {
