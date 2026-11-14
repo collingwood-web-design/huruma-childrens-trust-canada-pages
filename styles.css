@@ -478,19 +478,18 @@ button.btn {
 .visit-strip {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 0.4rem;
-  align-items: start;
+  gap: 0.5rem;
   background: var(--white);
-  padding: 0.4rem;
+  padding: 0.5rem;
 }
 
 .visit-strip img {
   width: 100%;
-  height: 200px;
+  aspect-ratio: 1;
+  height: auto;
   display: block;
-  object-fit: contain;
-  object-position: center;
-  background: var(--sky-soft);
+  object-fit: cover;
+  object-position: center 20%;
   border-radius: var(--radius-photo);
 }
 
@@ -1374,10 +1373,7 @@ button.btn {
 @media (max-width: 560px) {
   .visit-strip {
     grid-template-columns: 1fr;
-  }
-
-  .visit-strip img {
-    height: auto;
-    max-height: 280px;
+    max-width: 22rem;
+    margin-inline: auto;
   }
 }
