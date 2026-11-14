@@ -184,7 +184,7 @@ p:last-child {
 
 .site-nav a {
   text-decoration: none;
-  color: var(--navy);
+  color: var(--dark);
   font-weight: 600;
   font-size: 0.95rem;
 }
