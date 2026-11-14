@@ -123,6 +123,25 @@ p:last-child {
   margin-bottom: 2rem;
 }
 
+.section-head-split {
+  max-width: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem 2rem;
+}
+
+.section-head-split > div {
+  max-width: 40rem;
+}
+
+.section-head-link {
+  flex-shrink: 0;
+  white-space: nowrap;
+  margin-bottom: 0.15rem;
+}
+
 .section-head p,
 .hero-lead,
 .mama-copy p,
