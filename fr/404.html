@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html lang="fr-CA">
+<head>
+  <meta charset="utf-8">
+  <script>
+    (function () {
+      var project = location.pathname.match(/^\/(huruma-childrens-trust-canada-pages)\b/);
+      var base = document.createElement("base");
+      base.href = project ? "/" + project[1] + "/" : "/";
+      document.head.insertBefore(base, document.head.firstChild);
+    })();
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page introuvable | Huruma Children's Trust Canada</title>
+  <meta name="description" content="Cette page est introuvable. Retournez à l’accueil ou explorez Faire un don, Santé de Mama et Rapports.">
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="https://media.cwd-cdn.com/huruma-childrens-trust-canada/images/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="https://media.cwd-cdn.com/huruma-childrens-trust-canada/images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,600;6..12,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=20261114r">
+</head>
+<body>
+  <a class="skip-link" href="#main">Passer au contenu</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="fr/index.html" aria-label="Huruma Children's Trust Canada – accueil">
+        <img src="https://media.cwd-cdn.com/huruma-childrens-trust-canada/images/logo.png" alt="" width="56" height="56">
+        <span>Huruma Children's Trust Canada</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Ouvrir le menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Principale">
+        <a href="fr/index.html">Accueil</a>
+        <a href="fr/donate.html">Faire un don</a>
+        <a href="fr/mamas-health.html">Santé de Mama</a>
+        <a href="fr/reports.html">Rapports</a>
+        <div class="lang-switch" aria-label="Langue">
+          <a href="404.html" hreflang="en" lang="en">EN</a>
+          <span class="lang-sep" aria-hidden="true">|</span>
+          <a href="fr/404.html" hreflang="fr-CA" lang="fr-CA" aria-current="true">FR</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="error-page" aria-labelledby="error-title">
+      <div class="wrap error-page-inner">
+        <p class="error-code">404</p>
+        <h1 id="error-title">Page introuvable</h1>
+        <p class="error-lead">Désolé — cette page n’existe pas. Vous pouvez retourner à l’accueil ou utiliser l’un des liens ci-dessous.</p>
+        <div class="error-actions">
+          <a class="btn btn-primary" href="fr/index.html">Retour à l’accueil</a>
+          <a class="btn btn-outline" href="fr/donate.html">Faire un don</a>
+        </div>
+        <nav class="error-links" aria-label="Liens utiles">
+          <a href="fr/mamas-health.html">Santé de Mama</a>
+          <a href="fr/reports.html">Rapports du conseil</a>
+          <a href="fr/donation-costs.html">Coût des dons</a>
+          <a href="index.html" hreflang="en" lang="en">English site</a>
+        </nav>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <a class="brand brand-footer" href="fr/index.html">
+        <img src="https://media.cwd-cdn.com/huruma-childrens-trust-canada/images/logo.png" alt="" width="48" height="48">
+        <span>Huruma Children's Trust Canada</span>
+      </a>
+      <nav aria-label="Pied de page">
+        <a href="fr/index.html">Accueil</a>
+        <a href="fr/donate.html">Faire un don</a>
+        <a href="fr/mamas-health.html">Santé de Mama</a>
+        <a href="fr/reports.html">Rapports</a>
+      </nav>
+      <p class="footer-meta">Copyright © 2026 Huruma Children's Trust Canada · Conçu par <a href="https://www.collingwoodwebdesign.com/">Collingwood Web Design</a></p>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var toggle = document.querySelector('.nav-toggle');
+      var nav = document.getElementById('site-nav');
+      if (!toggle || !nav) return;
+      toggle.addEventListener('click', function () {
+        var open = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!open));
+        nav.classList.toggle('is-open', !open);
+      });
+    })();
+  </script>
+</body>
+</html>

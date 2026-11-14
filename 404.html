@@ -2,17 +2,98 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <script>
+    (function () {
+      var project = location.pathname.match(/^\/(huruma-childrens-trust-canada-pages)\b/);
+      var base = document.createElement("base");
+      base.href = project ? "/" + project[1] + "/" : "/";
+      document.head.insertBefore(base, document.head.firstChild);
+    })();
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Page not found | Huruma Children's Trust Canada</title>
-  <link rel="stylesheet" href="styles.css?v=20261113b">
+  <meta name="description" content="This page could not be found. Return home or explore Donate, Mama's Health, and Reports.">
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="https://media.cwd-cdn.com/huruma-childrens-trust-canada/images/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="https://media.cwd-cdn.com/huruma-childrens-trust-canada/images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,600;6..12,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=20261114r">
 </head>
 <body>
-  <main class="page-hero">
-    <div class="wrap narrow">
-      <h1>Page not found</h1>
-      <p>Sorry — that page isn’t available.</p>
-      <p><a class="btn btn-primary" href="index.html">Back to home</a></p>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="Huruma Children's Trust Canada home">
+        <img src="https://media.cwd-cdn.com/huruma-childrens-trust-canada/images/logo.png" alt="" width="56" height="56">
+        <span>Huruma Children's Trust Canada</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="donate.html">Donate Now</a>
+        <a href="mamas-health.html">Mama's Health</a>
+        <a href="reports.html">Reports</a>
+        <div class="lang-switch" aria-label="Language">
+          <a href="404.html" hreflang="en" lang="en" aria-current="true">EN</a>
+          <span class="lang-sep" aria-hidden="true">|</span>
+          <a href="fr/404.html" hreflang="fr-CA" lang="fr-CA">FR</a>
+        </div>
+      </nav>
     </div>
+  </header>
+
+  <main id="main">
+    <section class="error-page" aria-labelledby="error-title">
+      <div class="wrap error-page-inner">
+        <p class="error-code">404</p>
+        <h1 id="error-title">Page not found</h1>
+        <p class="error-lead">Sorry — that page isn’t here. You can head home or use one of the links below.</p>
+        <div class="error-actions">
+          <a class="btn btn-primary" href="index.html">Back to home</a>
+          <a class="btn btn-outline" href="donate.html">Donate Now</a>
+        </div>
+        <nav class="error-links" aria-label="Helpful links">
+          <a href="mamas-health.html">Mama's Health</a>
+          <a href="reports.html">Board reports</a>
+          <a href="donation-costs.html">Donation costs</a>
+          <a href="fr/index.html" hreflang="fr-CA" lang="fr-CA">Site en français</a>
+        </nav>
+      </div>
+    </section>
   </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <a class="brand brand-footer" href="index.html">
+        <img src="https://media.cwd-cdn.com/huruma-childrens-trust-canada/images/logo.png" alt="" width="48" height="48">
+        <span>Huruma Children's Trust Canada</span>
+      </a>
+      <nav aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="donate.html">Donate Now</a>
+        <a href="mamas-health.html">Mama's Health</a>
+        <a href="reports.html">Reports</a>
+      </nav>
+      <p class="footer-meta">Copyright © 2026 Huruma Children's Trust Canada · Designed by <a href="https://www.collingwoodwebdesign.com/">Collingwood Web Design</a></p>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var toggle = document.querySelector('.nav-toggle');
+      var nav = document.getElementById('site-nav');
+      if (!toggle || !nav) return;
+      toggle.addEventListener('click', function () {
+        var open = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!open));
+        nav.classList.toggle('is-open', !open);
+      });
+    })();
+  </script>
 </body>
 </html>
