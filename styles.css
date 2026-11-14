@@ -486,7 +486,7 @@ button.btn {
 
 .visit-strip img {
   width: 100%;
-  height: 240px;
+  height: 200px;
   display: block;
   object-fit: contain;
   object-position: center;
@@ -1369,13 +1369,15 @@ button.btn {
   .report img {
     max-width: 12rem;
   }
+}
 
+@media (max-width: 560px) {
   .visit-strip {
     grid-template-columns: 1fr;
   }
 
   .visit-strip img {
     height: auto;
-    max-height: 320px;
+    max-height: 280px;
   }
 }
