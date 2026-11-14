@@ -477,16 +477,20 @@ button.btn {
 /* Photo strip */
 .visit-strip {
   display: grid;
-  grid-template-columns: 1.2fr 0.9fr 0.9fr;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0.4rem;
+  align-items: start;
   background: var(--white);
   padding: 0.4rem;
 }
 
 .visit-strip img {
   width: 100%;
-  height: auto;
+  height: 240px;
   display: block;
+  object-fit: contain;
+  object-position: center;
+  background: var(--sky-soft);
   border-radius: var(--radius-photo);
 }
 
@@ -1309,10 +1313,6 @@ button.btn {
     max-width: 26rem;
   }
 
-  .visit-strip {
-    grid-template-columns: 1fr;
-  }
-
   .donate-band-inner {
     flex-direction: column;
     align-items: flex-start;
@@ -1368,5 +1368,14 @@ button.btn {
 
   .report img {
     max-width: 12rem;
+  }
+
+  .visit-strip {
+    grid-template-columns: 1fr;
+  }
+
+  .visit-strip img {
+    height: auto;
+    max-height: 320px;
   }
 }
