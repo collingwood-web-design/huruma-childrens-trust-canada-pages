@@ -693,8 +693,7 @@ button.btn {
 /* Ways to help */
 .ways {
   padding: 4.5rem 0 5rem;
-  background:
-    linear-gradient(180deg, var(--sky-soft) 0%, #dff3fb 100%);
+  background: var(--sky);
 }
 
 .ways-grid {
