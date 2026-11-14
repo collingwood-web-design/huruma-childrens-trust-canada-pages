@@ -426,8 +426,16 @@ button.btn {
   object-fit: cover;
 }
 
-.mama-copy .text-link {
-  margin-top: 0.5rem;
+.mama-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem 1.35rem;
+  margin-top: 0.75rem;
+}
+
+.mama-actions .text-link {
+  margin-top: 0;
 }
 
 /* Stories — interaction/content blocks, not chrome-heavy cards */
