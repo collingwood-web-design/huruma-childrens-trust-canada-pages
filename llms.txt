@@ -1,4 +1,4 @@
-# Huruma Children's Trust Canada
+﻿# Huruma Children's Trust Canada
 
 > Registered Canadian charity (Collingwood, Ontario) supporting Huruma Children's Home & School in Ngong, Kenya. CRA charity number 830771770RR0001.
 
@@ -8,12 +8,12 @@ This charity raises funds from donors across Canada. It is separate from Huruma 
 - English home: https://hurumachildrenstrustcanada.org/
 - French home: https://hurumachildrenstrustcanada.org/fr/
 - Donate: https://hurumachildrenstrustcanada.org/donate.html
-- Donation costs: https://hurumachildrenstrustcanada.org/donation-costs.html
+- Costs: https://hurumachildrenstrustcanada.org/donation-costs.html
 - Mama's Health: https://hurumachildrenstrustcanada.org/mamas-health.html
 - Board reports: https://hurumachildrenstrustcanada.org/reports.html
 
 ## Contact
 - Huruma Children's Trust (Canada)
-- 165 4th Street East, Collingwood, Ontario, Canada L9Y 1T9
+- 165 Fourth Street East, Collingwood, Ontario, Canada L9Y 1T9
 - donnamansfield25@yahoo.ca
 - 705 445 9894
