@@ -1052,6 +1052,20 @@ button.btn {
 
 .footer-social {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.footer-social-label {
+  margin: 0;
+  font-size: 0.9rem;
+  letter-spacing: 0.01em;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.footer-social-links {
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 0.85rem;
@@ -1068,19 +1082,19 @@ button.btn {
   transition: filter 0.2s ease, transform 0.2s ease;
 }
 
-.social-link[aria-label="Website"] {
+.social-link--web {
   background: var(--blue);
 }
 
-.social-link[aria-label="Instagram"] {
+.social-link--instagram {
   background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
 }
 
-.social-link[aria-label="Facebook"] {
+.social-link--facebook {
   background: #1877f2;
 }
 
-.social-link[aria-label="YouTube"] {
+.social-link--youtube {
   background: #ff0000;
 }
 
