@@ -1,3 +1,4 @@
-# Staging preview ? do not index. Production robots.txt lives on hurumachildrenstrustcanada.org
 User-agent: *
-Disallow: /
+Allow: /
+
+Sitemap: https://hurumachildrenstrustcanada.org/sitemap.xml
