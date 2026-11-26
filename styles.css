@@ -1,4 +1,4 @@
-:root {
+﻿:root {
   /* Logo colours: sky blue, heart red, white + dark for contrast */
   --blue: #3098d0;
   --blue-bright: #50b8e8;
@@ -910,6 +910,17 @@ button.btn {
 
 .costs-note {
   margin-bottom: 1.5rem;
+}
+
+.costs-section-title {
+  margin: 2rem 0 0.85rem;
+  font-size: clamp(1.25rem, 2vw, 1.5rem);
+}
+
+.costs-table tr.costs-total th,
+.costs-table tr.costs-total td {
+  font-weight: 700;
+  background: rgba(15, 52, 80, 0.08);
 }
 
 .costs-table-wrap {
