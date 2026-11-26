@@ -1,0 +1,48 @@
+---
+description: Use clean extensionless URLs that work on GH Pages previews and production
+alwaysApply: true
+---
+
+# Clean URLs (required)
+
+Keep on-disk `*.html` files for GitHub Pages. **Never expose `.html` in user-facing links.**
+
+## Two environments
+
+| Environment | Example |
+|---|---|
+| Production | `https://hurumachildrenstrustcanada.org/` |
+| GitHub Pages preview | `https://collingwood-web-design.github.io/huruma-childrens-trust-canada-pages/` |
+
+## Navigation / in-page links — path-relative (not root-relative)
+
+| Instead of | Use |
+|---|---|
+| `href="/"` | `href="./"` |
+| `href="index.html"` | `href="./"` |
+| `href="../index.html"` | `href="../"` |
+| `href="donate.html"` | `href="donate-now/"` (EN) or `href="donate"` (FR) |
+| `href="donation-costs.html"` | `href="donation-costs"` |
+| `href="mamas-health.html"` | `href="mamas-health/"` (EN) or `href="mamas-health"` (FR) |
+
+Same-page hashes stay `#section`. Do **not** reintroduce `.html` to fix preview issues.
+
+## SEO metadata — always production absolute clean URLs
+
+Canonical, Open Graph, Twitter, JSON-LD, sitemap, and `llms.txt` must use:
+
+`https://hurumachildrenstrustcanada.org/donate-now/`
+
+Never the GitHub Pages preview host, and never `.html`.
+
+## Assets
+
+Leave `.css`, `.js`, images, fonts, and `.pdf` extensions alone.
+
+## New pages
+
+1. Prefer `pagename/index.html` (EN) or keep `pagename.html` on disk for FR flat pages.
+2. Link path-relative without `.html`.
+3. Keep the head script that strips a trailing `.html` from the current path.
+
+Helpers: `python scripts/huruma-clean-urls.py`, `python scripts/apply-clean-urls.py`, `python scripts/audit-clean-urls.py`.

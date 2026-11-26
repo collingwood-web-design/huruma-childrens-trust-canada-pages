@@ -13,17 +13,17 @@
   <url>
     <loc>https://hurumachildrenstrustcanada.org/donate-now/</loc>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://hurumachildrenstrustcanada.org/donate-now/"/>
-    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://hurumachildrenstrustcanada.org/fr/donate.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://hurumachildrenstrustcanada.org/fr/donate"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://hurumachildrenstrustcanada.org/donate-now/"/>
     <lastmod>2026-11-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://hurumachildrenstrustcanada.org/donation-costs.html</loc>
-    <xhtml:link rel="alternate" hreflang="en-CA" href="https://hurumachildrenstrustcanada.org/donation-costs.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://hurumachildrenstrustcanada.org/fr/donation-costs.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurumachildrenstrustcanada.org/donation-costs.html"/>
+    <loc>https://hurumachildrenstrustcanada.org/donation-costs</loc>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://hurumachildrenstrustcanada.org/donation-costs"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://hurumachildrenstrustcanada.org/fr/donation-costs"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurumachildrenstrustcanada.org/donation-costs"/>
     <lastmod>2026-11-24</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
@@ -31,7 +31,7 @@
   <url>
     <loc>https://hurumachildrenstrustcanada.org/mamas-health/</loc>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://hurumachildrenstrustcanada.org/mamas-health/"/>
-    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://hurumachildrenstrustcanada.org/fr/mamas-health.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://hurumachildrenstrustcanada.org/fr/mamas-health"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://hurumachildrenstrustcanada.org/mamas-health/"/>
     <lastmod>2026-11-24</lastmod>
     <changefreq>monthly</changefreq>
@@ -40,7 +40,7 @@
   <url>
     <loc>https://hurumachildrenstrustcanada.org/reports-from-board-of-directors/</loc>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://hurumachildrenstrustcanada.org/reports-from-board-of-directors/"/>
-    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://hurumachildrenstrustcanada.org/fr/reports.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://hurumachildrenstrustcanada.org/fr/reports"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://hurumachildrenstrustcanada.org/reports-from-board-of-directors/"/>
     <lastmod>2026-11-24</lastmod>
     <changefreq>monthly</changefreq>
@@ -56,36 +56,36 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://hurumachildrenstrustcanada.org/fr/donate.html</loc>
+    <loc>https://hurumachildrenstrustcanada.org/fr/donate</loc>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://hurumachildrenstrustcanada.org/donate-now/"/>
-    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://hurumachildrenstrustcanada.org/fr/donate.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://hurumachildrenstrustcanada.org/fr/donate"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://hurumachildrenstrustcanada.org/donate-now/"/>
     <lastmod>2026-11-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://hurumachildrenstrustcanada.org/fr/donation-costs.html</loc>
-    <xhtml:link rel="alternate" hreflang="en-CA" href="https://hurumachildrenstrustcanada.org/donation-costs.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://hurumachildrenstrustcanada.org/fr/donation-costs.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurumachildrenstrustcanada.org/donation-costs.html"/>
+    <loc>https://hurumachildrenstrustcanada.org/fr/donation-costs</loc>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://hurumachildrenstrustcanada.org/donation-costs"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://hurumachildrenstrustcanada.org/fr/donation-costs"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurumachildrenstrustcanada.org/donation-costs"/>
     <lastmod>2026-11-24</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hurumachildrenstrustcanada.org/fr/mamas-health.html</loc>
+    <loc>https://hurumachildrenstrustcanada.org/fr/mamas-health</loc>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://hurumachildrenstrustcanada.org/mamas-health/"/>
-    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://hurumachildrenstrustcanada.org/fr/mamas-health.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://hurumachildrenstrustcanada.org/fr/mamas-health"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://hurumachildrenstrustcanada.org/mamas-health/"/>
     <lastmod>2026-11-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hurumachildrenstrustcanada.org/fr/reports.html</loc>
+    <loc>https://hurumachildrenstrustcanada.org/fr/reports</loc>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://hurumachildrenstrustcanada.org/reports-from-board-of-directors/"/>
-    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://hurumachildrenstrustcanada.org/fr/reports.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://hurumachildrenstrustcanada.org/fr/reports"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://hurumachildrenstrustcanada.org/reports-from-board-of-directors/"/>
     <lastmod>2026-11-24</lastmod>
     <changefreq>monthly</changefreq>
