@@ -447,6 +447,18 @@ button.btn {
   margin-top: 0.5rem;
 }
 
+.mama-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem 1.35rem;
+  margin-top: 0.75rem;
+}
+
+.mama-actions .text-link {
+  margin-top: 0;
+}
+
 /* Stories — interaction/content blocks, not chrome-heavy cards */
 .stories {
   padding: 4.5rem 0;
@@ -680,16 +692,13 @@ button.btn {
 }
 
 .way {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-decoration: none;
   color: inherit;
   text-align: center;
   padding: 0.5rem 0.75rem;
-  transition: transform 0.25s ease;
-}
-
-.way:hover {
-  transform: translateY(-4px);
-  color: inherit;
 }
 
 .way-icon {
@@ -703,13 +712,42 @@ button.btn {
 .way h3 {
   color: var(--dark);
   font-size: 1.15rem;
+  margin-bottom: 0.55rem;
 }
 
 .way p {
   color: var(--muted);
   font-size: 0.98rem;
   max-width: 22rem;
-  margin-inline: auto;
+  margin: 0 auto 1.25rem;
+}
+
+.way .btn {
+  margin-top: auto;
+}
+
+.btn-way {
+  color: var(--white);
+}
+
+.btn-way:hover {
+  color: var(--white);
+  filter: brightness(0.92);
+}
+
+.btn-way-orange {
+  background: #f99d26;
+  border-color: #f99d26;
+}
+
+.btn-way-red {
+  background: #b92529;
+  border-color: #b92529;
+}
+
+.btn-way-blue {
+  background: #3f58a6;
+  border-color: #3f58a6;
 }
 
 /* Donate band */
