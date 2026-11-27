@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "site_id": "bad62b71-74ac-4beb-b839-7c5a01b42a5c",
+  "environment": "production",
+  "agent_version": "1",
+  "collection_url": "https://cwd-site-monitor-collector.cwdmedia.workers.dev/v1/events"
+}
